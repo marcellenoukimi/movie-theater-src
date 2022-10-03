@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class ReservationTests {
 	@Test
-	void totalFee() {
+	void testTotalFee() {
 		var customer = new Customer("John Doe", "unused-id");
 		var showing = 
 				new Showing(new Movie("Spider-Man: No Way Home", Duration.ofMinutes(90),12.5, 1),
